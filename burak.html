@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>11r hesaplama ödevi js Burak Gömeç</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3>Hesaplama Ödevi 11r js</h3>
+    <form action="#" id="formKredi">
+        <label for="Kredi">Çekilmek İstenen Kredi Tutarı :</label>
+        <input type="text" name="" id="Kredi">
+        <label for="Vade">Vade Süresi Seçiniz:</label>
+        <select name="" id="Vade">
+            <option value="12">12ay</option>
+            <option value="24">24ay</option>
+            <option value="36">36ay</option>
+            <option value="48">48ay</option>
+        </select>
+        <input type="button" value="Kredi Geri Ödeme Şartlarını Hesapla" onclick="vadekrediHesapla();">
+    </form>
+    <h5 id="sonuc"></h5>
+</body>
+<script src="gömeç.js"></script>
+</html>
